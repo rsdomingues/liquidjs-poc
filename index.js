@@ -20,8 +20,19 @@ engine.registerTag('engage', {
 
 //Creating the context, this would be a simple get context from a database based on poc-id
 const ctx = {
-  promotion: {minimum: 2, maxdate: 'Sept 07, 2022'},
-  product: {name: "Beck Long Neck", price: '12.99', package: {size: 6, type:"pack" }},
+  name: 'John',
+  promotion: {
+      minimum: 2, 
+      maxdate: 'Sept 07, 2022'
+    },
+  product: {
+      name: "Beck Long Neck", 
+        price: '12.99',  
+        package: {
+            size: 6, 
+            type:"pack" 
+        }
+    },
 }
 
 
